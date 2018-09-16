@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Clone repository. 
 
-Things you may want to cover:
+Make sure rails is installed.
 
-* Ruby version
+http://installrails.com/steps/choose_os
 
-* System dependencies
+Navigate to the the directory you cloned or unzipped the application. 
 
-* Configuration
+Then run the following commands:
 
-* Database creation
+1. bundle install
 
-* Database initialization
+2. rake db:migrate
 
-* How to run the test suite
+and finally,
 
-* Services (job queues, cache servers, search engines, etc.)
+3. bin/rails s (this will start the server)
 
-* Deployment instructions
-
-* ...
+In your web browser navigate to localhost:3000
